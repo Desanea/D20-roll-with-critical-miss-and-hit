@@ -12,10 +12,10 @@ while roll_again == "yes" or roll_again == "y":
     print("And you got...")
     print(random.randint(min,max))
 
-    if  (random.randint == 20):
+    if random.randint == 20:
         print("Critical Hit! Way to go!")
 
-    if (random.randint == 1):
+    if random.randint == 1:
         print("Critical miss")
 
     #if  (random.randint == (crit_miss)):
